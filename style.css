@@ -39,17 +39,39 @@ hr{
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
   margin-top: 30px;
 }
-#articleTitle{font-family: 'Assistant', sans-serif;
+#articleTitle{
+  font-family: 'Assistant', sans-serif;
   font-size: xx-large;
   margin-top: 40px;
 }
+
+#articleDate {
+  font-family: 'Roboto Mono', monospace;
+  font-size: small;
+  letter-spacing: -1.25px;
+
+}
+
+.printButton {
+  float: right;
+  font-family: 'Roboto Mono', monospace;
+  font-size: small;
+  letter-spacing: -1.25px;
+  position: relative;
+  right: 50px;
+  bottom: 25px;
+}
+
 #heroImage {
+  width: 960px;
+  height: auto;
   margin: 25px auto 25px auto;
 }
 
 #recipe {
   margin: 25px auto 25px auto;
-
+  text-indent: 50px;
+  text-align: justify;
 }
 
 
@@ -57,19 +79,45 @@ hr{
 
 #list {
   background-image: url(./img/list-bg.png);
-  padding: 20px;
+  padding: 45px 200px 21px 47px;
   height: 120px;
   margin: 25px auto 25px auto;
+  font-family: "Comic Sans MS", cursive, sans-serif;
+  font-weight: bold;
 }
 
 #listLeft {
   float: left;
-  outline: 2px solid black;
-
 }
 
 #listRight {
   float: right;
-  outline: 2px solid black;
+}
 
+#authorPic {
+  float: left;
+}
+
+.authorDescription {
+  margin-left: 95px;
+}
+
+h1.authorDescription{
+  font-family: 'Assistant', sans-serif;
+  font-size: large;
+}
+
+button {
+  float: right;
+  position: relative;
+  bottom: 30px;
+}
+
+footer {
+  margin-top: 30px;
+}
+
+.legal {
+  text-align: center;
+  margin-bottom: 25px;
 }

@@ -31,10 +31,14 @@
   <hr>
   <main>
     <section>
-      <h1 id="articleTitle">Chocolate Pizza</h1>
-      <p>POSTED ON 15 DEC 2013 / DESSERTS</p>
+      <section>
+        <h1 id="articleTitle">Chocolate Pizza</h1>
+        <p id="articleDate">POSTED ON 15 DEC 2013 / DESSERTS</p>
+    </section>
+    <section class="printButton">
       <img src="./img/print-icon.png" alt="printer">
       <p>PRINT</p>
+    </section>
     </section>
     <img id="heroImage" src="./img/choco-pizza.png" alt="choco-pizza">
     <article id="recipe">
@@ -55,7 +59,7 @@
       <section id="listRight">
           <input type="checkbox" name="" value=""> 1 1/2 cups heavy cream <br>
           <input type="checkbox" name="" value="" checked><del>1/3 granulated sugar</del> <br>
-          <input type="checkbox" name="" value="" checked> 2 egg yolk <br>
+          <input type="checkbox" name="" value="" checked> <del>2 egg yolk</del> <br>
           <input type="checkbox" name="" value=""> 1 lemon, juiced <br>
           <input type="checkbox" name="" value=""> 2 tbsp butter <br>
           <input type="checkbox" name="" value=""> 1 cup honey roasted peacans, roughly <br> chopped
@@ -65,14 +69,17 @@
   </main>
   <hr>
   <footer>
-    <img src="./img/van-pic.png" alt="Vanessa Stevenson">
-    <h1>Vanessa Stevenson</h1>
-    <p>Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
-    <button>SHARE RECIPE</button>
-    <hr>
+    <section class="endArticle">
+      <img src="./img/van-pic.png" alt="Vanessa Stevenson" id="authorPic">
+      <h1 class="authorDescription">Vanessa Stevenson</h1>
+      <p class="authorDescription">Food enthusiast, photography fan. Add a pinch of raw foodism and that's pretty much who I am.</p>
+      <button id="shareRecipe">SHARE RECIPE</button>
+  </section>
+  <hr>
+  <section class="legal">
     <p>Delicious &copy; Copyright 2013 &middot; All Rights Reserved. <br> 
     Proudly Published with Ghost.</p> 
-    
+  </section>
   </footer>
 </body>
 </html>
