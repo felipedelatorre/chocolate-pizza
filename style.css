@@ -3,19 +3,33 @@ body{
   margin: 0px auto 0px auto;
 }
 header{
-  background-color: red;
   margin-top: 25px;
   height: 75px;
 }
 header img{
   float: left;
 }
-section#headertext{
-  /* display: inline-block; */
-  float: left;
+#headerText{
+  margin-left: 5px;
 }
-#socialMediaButtons{
+#titleText{
+  font-family: 'Pacifico', cursive;
+  font-size: xx-large;
+  font-style: italic;
+}
+#titleSubScript{
+  font-family: 'Roboto Mono', monospace;
+  font-size: small;
+  letter-spacing: -1.25px;
+}
+.socialMediaButtons{
   float: right;
+}
+.socialMediaButtons img{
+  margin-left: 2px;
+}
+#rss{
+  margin-left: 7px;
 }
 
 /* HR style from https://css-tricks.com/examples/hrs/ */
@@ -23,8 +37,12 @@ hr{
   border: 0;
   height: 1px;
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+  margin-top: 30px;
 }
-
+#articleTitle{font-family: 'Assistant', sans-serif;
+  font-size: xx-large;
+  margin-top: 40px;
+}
 #heroImage {
   margin: 25px auto 25px auto;
 }
