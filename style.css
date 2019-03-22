@@ -1,0 +1,24 @@
+body{
+  width:960px;
+  margin: 0px auto 0px auto;
+}
+header{
+  background-color: red;
+  margin-top: 25px;
+  height: 75px;
+}
+img{
+  float: left;
+}
+section#headertext{
+  /* display: inline-block; */
+  float: left;
+}
+#socialMediaButtons{
+  float: right;
+}
+hr{
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
